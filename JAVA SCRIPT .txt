@@ -1,0 +1,55 @@
+JAVA SCRIPT 
+ES5 & ES6
+
+ES5 VAR
+ES6 LET & CONST
+
+var is function scalable 
+let nd const are braces scalable
+
+ForEach
+
+var a=[20,20,40,50];
+a.forEach(function(value){
+    console.log(value+2);
+})
+console.log(a);
+
+
+For in
+
+var a={name:"don",
+city:"maharashtra"};
+for (var key in a){
+    console.log(key,a[key]);
+}
+
+set time out 
+
+var msg= "hey khulja sim sim" ; 
+setTimeout(function(mg){
+    console.log(msg);
+
+},1000);
+
+
+
+Binded function
+function don (){
+    console.log(this);
+}
+var akshay = {age:30};
+var bindedfnc = don.bind(akshay);
+bindedfnc();
+
+
+DOM
+
+4 PILLARS OF DOM!
+SELECTION OF AN ELEMENT- document.querrySelector;
+CHANGING HTML - innerhtml
+CHANGING CSS - .style
+EVENT LISTENER - a.eventListener(function(){
+}
+
+

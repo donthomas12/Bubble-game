@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+
+}
+html,body{ 
+    border-width: 1cap;
+    border-color: rgb(255, 255, 255);
+    width:100%;
+    height:100%;
+
+}
+#main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 252, 153, 0.655);
+}
+#pannel{
+    overflow: hidden;
+   
+    border-radius: 10px; 
+    Width: 80%;
+    height: 80%;
+    background-color: rgb(242, 255, 0);  
+
+
+}
+#ptop{
+    padding: 0px 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    width:100%;
+    height: 80px;
+    background-color: rgba(71, 49, 2, 0.929);
+
+}
+.box{
+    font-weight:  600 ;
+    font-size: 25px;
+    color: rgb(74, 56, 2);
+    padding:10px 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+#pbtm{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+
+    width:100%;
+    height :calc(100%-100px)%;
+
+    background-color: rgba(255, 251, 0, 0.923);
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width:60px;
+    height :60px;
+    background-color:  rgba(71, 49, 2, 0.876);
+    border-radius: 50%;
+    color:white;
+    font-weight: 500;
+
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(252, 164, 23);
+}
